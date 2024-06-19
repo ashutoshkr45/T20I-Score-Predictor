@@ -24,7 +24,7 @@ The motivation behind this project stems from the need to leverage machine learn
 - **Feature Extraction and Engineering**:
   - Extracted relevant features from the dataset, focusing on match-specific attributes.
   - Filtered data to include matches from January 1, 2011, onwards to align with the contemporary pace of T20 cricket.
-  - Incorporated venue-to-country mapping to enrich venue-based analysis.
+  - Incorporated venue-to-host_country mapping to enrich venue-based analysis.
 
 - **Model Building**:
   - Developed two main regression models:
