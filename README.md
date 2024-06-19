@@ -37,7 +37,7 @@ The motivation behind this project stems from the need to leverage machine learn
   - Demonstrated model predictions for sample match scenarios using both XGBoost and Random Forest models.
 
 - **Deployment**:
-  - Saved the trained XGBoost model using pickle for deployment in web applications or further usage.
+  - Saved the trained XGBoost model using pickle for deployment in web application.
 
 ## Conclusion
 
