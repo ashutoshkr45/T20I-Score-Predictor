@@ -39,7 +39,28 @@ The motivation behind this project stems from the need to leverage machine learn
 - **Deployment**:
   - Saved the trained XGBoost model using pickle for deployment in web application.
 
+## Running the Streamlit App
+
+To run the interactive T20I Score Predictor app, follow these steps:
+
+1. **Clone the Repository**: Clone this GitHub repository to your local machine.
+
+2. **Install Dependencies**: Ensure you have the necessary Python libraries installed. You can install them using pip: *pip install streamlit pandas numpy xgboost*
+
+3. **Download the Trained Model**: Download the `pipe.pkl` file (containing the trained XGBoost model) from the repository or ensure it's placed in the same directory as your `app.py` file.
+
+4. **Run the Streamlit App**: Open your terminal or command prompt, navigate to the directory containing `app.py`, and run the following command: ***streamlit run app.py***
+
+5. **Interact with the App**: Once the Streamlit server starts, you should see a local URL in the terminal. Click on the URL or copy-paste it into your web browser to interact with the T20I Score Predictor app.
+
+6. **Input Parameters**: Select the batting team, bowling team, hosting country, and input current score, overs bowled, wickets out, and runs scored in the last 5 overs to predict the score.
+
+7. **Prediction**: Click on the "Predict Score" button to see the predicted first innings score for the T20I match.
+
 ## Conclusion
 
 This project underscores the efficacy of machine learning in predicting cricket match outcomes, specifically the first innings score in T20I matches. By leveraging advanced regression techniques and comprehensive dataset analysis, the models presented here demonstrate robust performance and potential applications in cricket analytics.
 
+
+```bash
+streamlit run app.py
